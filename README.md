@@ -25,6 +25,8 @@ Enhancing the resolution of gravitational lensing images is crucial for:
 
 The dataset consists of 2,834 pairs of Low Resolution (LR) and High Resolution (HR) images. The LR images are derived from the HR images by adding Gaussian noise and applying blurring.
 
+![Dataset](figures/dataset.webp)
+
 ## Results
 
 | Model   | PSNR  | SSIM  | Paper |
