@@ -35,7 +35,7 @@ The dataset consists of 2,834 pairs of Low Resolution (LR) and High Resolution (
 | [SR3](models/SR3.ipynb)     | 28.81 | 0.854 | [Link](https://arxiv.org/abs/2104.07636) |
 | [SRDiff](models/srdiff.ipynb)  | 34.71 | 0.87  | [Link](https://arxiv.org/abs/2104.14951) |
 | [ResShift](models/resshift.ipynb) | 35.55 | 0.879 | [Link](https://arxiv.org/abs/2201.11745) |
-| [CG-DPM](models/cgdpm.ipynb)  | 33.447| 0.851 | [Link](https://arxiv.org/abs/2106.07579) |
+| [CG-DPM](models/cgdpm.ipynb)  | 33.447| 0.851 | [Link](https://openreview.net/forum?id=skb4IdpQ3M) |
 
 *Results on the Test Dataset*
 
