@@ -20,43 +20,15 @@ Enhancing the resolution of gravitational lensing images is crucial for:
 
 The dataset consists of 2,834 pairs of Low Resolution (LR) and High Resolution (HR) images. The LR images are derived from the HR images by adding Gaussian noise and applying blurring.
 
-## Models and Techniques
-
-### Denoising Diffusion Probabilistic Models (DDPM)
-
-Introduced by Ho et al. in 2020, DDPMs learn to denoise a pure noise signal into a target sample. The process involves a forward diffusion that adds noise to data and a learned reverse denoising process.
-
-### SR3 (Super-Resolution via Repeated Refinement)
-
-Developed by Saharia et al. in 2021, SR3 starts with Gaussian noise and refines the image through denoising steps conditioned on the low-resolution input.
-
-### SRDiff
-
-Introduced by Li et al. in 2021, SRDiff uses diffusion probabilistic models to generate high-resolution images from low-resolution inputs. It employs a U-Net architecture for conditional noise prediction and an RRDB-based low-resolution encoder.
-
-### ResShift
-
-An efficient diffusion model for image super-resolution, ResShift transitions between high-resolution and low-resolution images by shifting their residuals. It achieves high-quality results with fewer steps, offering faster inference compared to previous methods.
-
-### CG-DPM (Conditional Guided Diffusion Probabilistic Model)
-
-A novel approach combining a conditional diffusion model with a score-based guided network. CG-DPM uses a redesigned U-Net architecture to incorporate conditional low-resolution images and a guided network trained with a score-based loss function for more accurate high-resolution outputs.
-
-### Loss Function
-
-The primary loss function used in training is Mean Absolute Error (MAE).
-
 ## Results
 
-### Quantitative Results
-
-| Model   | PSNR  | SSIM  |
-|---------|-------|-------|
-| DDPM    | 26.95 | 0.821 |
-| SR3     | 28.81 | 0.854 |
-| SRDiff  | 34.71 | 0.87  |
-| ResShift| 35.55 | 0.879 |
-| CG-DPM  | 33.447| 0.851 |
+| Model   | PSNR  | SSIM  | Paper |
+|---------|-------|-------|-------|
+| [DDPM](https://arxiv.org/abs/2006.11239)    | 26.95 | 0.821 | [Link](https://arxiv.org/abs/2006.11239) |
+| [SR3](https://arxiv.org/abs/2104.07636)     | 28.81 | 0.854 | [Link](https://arxiv.org/abs/2104.07636) |
+| [SRDiff](https://arxiv.org/abs/2104.14951)  | 34.71 | 0.87  | [Link](https://arxiv.org/abs/2104.14951) |
+| [ResShift](https://arxiv.org/abs/2201.11745)| 35.55 | 0.879 | [Link](https://arxiv.org/abs/2201.11745) |
+| [CG-DPM](https://arxiv.org/abs/2106.07579)  | 33.447| 0.851 | [Link](https://arxiv.org/abs/2106.07579) |
 
 *Results on the Test Dataset*
 
