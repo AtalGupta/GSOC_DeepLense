@@ -31,13 +31,14 @@ The dataset consists of 2,834 pairs of Low Resolution (LR) and High Resolution (
 
 | Model   | PSNR  | SSIM  | Paper |
 |---------|-------|-------|-------|
-| [DDPM](https://arxiv.org/abs/2006.11239)    | 26.95 | 0.821 | [Link](https://arxiv.org/abs/2006.11239) |
-| [SR3](https://arxiv.org/abs/2104.07636)     | 28.81 | 0.854 | [Link](https://arxiv.org/abs/2104.07636) |
-| [SRDiff](https://arxiv.org/abs/2104.14951)  | 34.71 | 0.87  | [Link](https://arxiv.org/abs/2104.14951) |
-| [ResShift](https://arxiv.org/abs/2201.11745)| 35.55 | 0.879 | [Link](https://arxiv.org/abs/2201.11745) |
-| [CG-DPM](https://arxiv.org/abs/2106.07579)  | 33.447| 0.851 | [Link](https://arxiv.org/abs/2106.07579) |
+| [DDPM](models/ddpm.py)    | 26.95 | 0.821 | [Link](https://arxiv.org/abs/2006.11239) |
+| [SR3](models/sr3.py)     | 28.81 | 0.854 | [Link](https://arxiv.org/abs/2104.07636) |
+| [SRDiff](models/srdiff.py)  | 34.71 | 0.87  | [Link](https://arxiv.org/abs/2104.14951) |
+| [ResShift](models/resshift.py) | 35.55 | 0.879 | [Link](https://arxiv.org/abs/2201.11745) |
+| [CG-DPM](models/cg_dpm.py)  | 33.447| 0.851 | [Link](https://arxiv.org/abs/2106.07579) |
 
 *Results on the Test Dataset*
+
 
 ## Future Work
 
