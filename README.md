@@ -8,6 +8,11 @@ This project focuses on enhancing the resolution of gravitational lensing images
 
 Gravitational lensing is a phenomenon predicted by Einstein's theory of general relativity. It occurs when a massive object, like a galaxy cluster or black hole, bends the path of light from a distant source. This can create multiple images, arcs, or rings of the source, depending on the alignment and mass distribution of the lensing object.
 
+![Gravitational Lensing Image](figures/gravitlensing.webp)
+
+*[Image Source](https://www.jpl.nasa.gov/images/pia23641-gravitational-lensing-graphic)*
+
+
 ### Importance of Super-Resolution
 
 Enhancing the resolution of gravitational lensing images is crucial for:
